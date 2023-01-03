@@ -1,0 +1,10 @@
+package com.rest.webservices.restfulwebservices.user;
+
+@Data
+public class SomeBean {
+	
+	private String field1;
+	private String field2;
+	private String field3;
+
+}

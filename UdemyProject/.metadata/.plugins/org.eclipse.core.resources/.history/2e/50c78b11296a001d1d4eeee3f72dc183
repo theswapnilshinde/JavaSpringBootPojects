@@ -1,0 +1,5 @@
+server.port=9090
+#show all api actuatores api
+
+management.endpoints.web.exposure.include=*
+spring.datasource.url=jdbc:h2:mem:tsetdb

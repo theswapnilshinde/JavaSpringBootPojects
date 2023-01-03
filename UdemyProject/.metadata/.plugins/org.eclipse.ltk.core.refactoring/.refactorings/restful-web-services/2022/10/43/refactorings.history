@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;messages_nl.properties&apos; to &apos;restful-web-services/src/main/resources&apos;&#x0D;&#x0A;- Original project: &apos;restful-web-services&apos;&#x0D;&#x0A;- Destination element: &apos;restful-web-services/src/main/resources&apos;&#x0D;&#x0A;- Original element: &apos;messages_nl.properties&apos;" description="Copy file" destination="/src\/main\/resources=/maven.pomderived=/true=/" element1="src/main/resources/messages_nl.properties" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1666088067221" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,5 @@
+package com.rest.webservices.restfulwebservices.Controller;
+
+public class StaticAndDyanmicFitering {
+
+}

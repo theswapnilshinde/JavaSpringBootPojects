@@ -1,0 +1,20 @@
+package com.rest.webservices.restfulwebservices.securty;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.web.SecurityFilterChain;
+
+@Configuration
+public class SpringSecurity {
+	
+	@Bean
+	public SecurityFilterChain filterChin(HttpSecurity http) throws Exception
+	{
+		// all request should be authenticated
+		http.authorizeHttpRequests(auth -> auth.anyRequest().authenticated() );
+		return http.build();
+		
+	}
+
+}
